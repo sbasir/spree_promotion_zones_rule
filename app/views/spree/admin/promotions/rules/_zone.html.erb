@@ -1,0 +1,4 @@
+<div class="field alpha omega eight columns">
+  <%= label_tag "#{param_prefix}_zone_ids_string", Spree.t('choose_zones') %>
+  <%= hidden_field_tag "#{param_prefix}[zone_ids_string]", promotion_rule.zone_ids.join(","), :class => "zone_picker fullwidth" %>
+</div>

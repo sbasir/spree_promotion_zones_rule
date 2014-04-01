@@ -1,0 +1,2 @@
+<!-- insert_bottom 'script' -->
+Spree.routes.zone_search = "<%= spree.api_zones_url(:format => 'json') %>";

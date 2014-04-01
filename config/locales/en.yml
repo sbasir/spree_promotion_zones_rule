@@ -3,3 +3,9 @@
 
 en:
   hello: "Hello world"
+  spree:
+    promotion_rule_types:
+      zone:
+        name: Zone(s)
+        description: Shipping Address falls in the specified Zone(s)
+    choose_zones: Choose Zones
